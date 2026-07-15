@@ -1,0 +1,21 @@
+# Compiler and linker output
+*.o
+*.a
+*.so
+
+# Runtime logs
+*.out
+*.log
+
+# Project executables (rebuilt by the Makefiles)
+CloudPan*/client/cli
+CloudPan*/server/FTS
+CloudPan*/server/chart
+CloudPan*/server/main
+CloudPan*/server/ser
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+*~
+.DS_Store
